@@ -15,7 +15,8 @@ type Books struct {
 // You need to change this to load data from the CSV file
 func (b *Books) Initialize() {
 	//b.Store = &loader.BooksLiteral
-	b.Store = &loader.CsvReader
+	booksList := loader.CsvReader()
+	b.Store = &booksList
 }
 
 // GetAllBooks returns the entire dataset, subjet to the rudimentary limit & skip parameters
