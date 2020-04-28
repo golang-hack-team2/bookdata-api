@@ -4,7 +4,7 @@ package loader
 // Once you have created your CSV loader, you will not need this file.
 var BooksLiteral = []*BookData{
 	{
-		BookID:        "1",
+		BookID:        1,
 		Title:         "Harry Potter and the Half-Blood Prince (Harry Potter  #6)",
 		Authors:       "J.K. Rowling-Mary GrandPré",
 		AverageRating: 4.56,
@@ -16,7 +16,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       26249,
 	},
 	{
-		BookID:        "2",
+		BookID:        2,
 		Title:         "Harry Potter and the Order of the Phoenix (Harry Potter  #5)",
 		Authors:       "J.K. Rowling-Mary GrandPré",
 		AverageRating: 4.49,
@@ -28,7 +28,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       27613,
 	},
 	{
-		BookID:        "3",
+		BookID:        3,
 		Title:         "Harry Potter and the Sorcerer's Stone (Harry Potter  #1)",
 		Authors:       "J.K. Rowling-Mary GrandPré",
 		AverageRating: 4.47,
@@ -40,7 +40,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       70390,
 	},
 	{
-		BookID:        "4",
+		BookID:        4,
 		Title:         "Harry Potter and the Chamber of Secrets (Harry Potter  #2)",
 		Authors:       "J.K. Rowling",
 		AverageRating: 4.41,
@@ -52,7 +52,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       272,
 	},
 	{
-		BookID:        "5",
+		BookID:        5,
 		Title:         "Harry Potter and the Prisoner of Azkaban (Harry Potter  #3)",
 		Authors:       "J.K. Rowling-Mary GrandPré",
 		AverageRating: 4.55,
@@ -64,7 +64,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       33964,
 	},
 	{
-		BookID:        "8",
+		BookID:        8,
 		Title:         "Harry Potter Boxed Set  Books 1-5 (Harry Potter  #1-5)",
 		Authors:       "J.K. Rowling-Mary GrandPré",
 		AverageRating: 4.78,
@@ -76,7 +76,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       154,
 	},
 	{
-		BookID:        "9",
+		BookID:        9,
 		Title:         "Unauthorized Harry Potter Book Seven News: Half-Blood Prince Analysis and Speculation",
 		Authors:       "W. Frederick Zimmerman",
 		AverageRating: 3.69,
@@ -88,7 +88,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       1,
 	},
 	{
-		BookID:        "10",
+		BookID:        10,
 		Title:         "Harry Potter Collection (Harry Potter  #1-6)",
 		Authors:       "J.K. Rowling",
 		AverageRating: 4.73,
@@ -100,7 +100,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       820,
 	},
 	{
-		BookID:        "12",
+		BookID:        12,
 		Title:         "The Ultimate Hitchhiker's Guide: Five Complete Novels and One Story (Hitchhiker's Guide to the Galaxy  #1-5)",
 		Authors:       "Douglas Adams",
 		AverageRating: 4.38,
@@ -112,7 +112,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       258,
 	},
 	{
-		BookID:        "13",
+		BookID:        13,
 		Title:         "The Ultimate Hitchhiker's Guide to the Galaxy",
 		Authors:       "Douglas Adams",
 		AverageRating: 4.38,
@@ -124,7 +124,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       3954,
 	},
 	{
-		BookID:        "14",
+		BookID:        14,
 		Title:         "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
 		Authors:       "Douglas Adams",
 		AverageRating: 4.22,
@@ -136,7 +136,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       408,
 	},
 	{
-		BookID:        "16",
+		BookID:        16,
 		Title:         "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy  #1)",
 		Authors:       "Douglas Adams-Stephen Fry",
 		AverageRating: 4.22,
@@ -148,7 +148,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       253,
 	},
 	{
-		BookID:        "18",
+		BookID:        18,
 		Title:         "The Ultimate Hitchhiker's Guide (Hitchhiker's Guide to the Galaxy #1-5)",
 		Authors:       "Douglas Adams",
 		AverageRating: 4.38,
@@ -160,7 +160,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       192,
 	},
 	{
-		BookID:        "21",
+		BookID:        21,
 		Title:         "A Short History of Nearly Everything",
 		Authors:       "Bill Bryson-William Roberts",
 		AverageRating: 4.2,
@@ -172,7 +172,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       8840,
 	},
 	{
-		BookID:        "22",
+		BookID:        22,
 		Title:         "Bill Bryson's African Diary",
 		Authors:       "Bill Bryson",
 		AverageRating: 3.43,
@@ -184,7 +184,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       470,
 	},
 	{
-		BookID:        "23",
+		BookID:        23,
 		Title:         "Bryson's Dictionary of Troublesome Words: A Writer's Guide to Getting It Right",
 		Authors:       "Bill Bryson",
 		AverageRating: 3.88,
@@ -196,7 +196,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       124,
 	},
 	{
-		BookID:        "24",
+		BookID:        24,
 		Title:         "In a Sunburned Country",
 		Authors:       "Bill Bryson",
 		AverageRating: 4.07,
@@ -208,7 +208,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       4077,
 	},
 	{
-		BookID:        "25",
+		BookID:        25,
 		Title:         "I'm a Stranger Here Myself: Notes on Returning to America After Twenty Years Away",
 		Authors:       "Bill Bryson",
 		AverageRating: 3.9,
@@ -220,7 +220,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       2153,
 	},
 	{
-		BookID:        "26",
+		BookID:        26,
 		Title:         "The Lost Continent: Travels in Small Town America",
 		Authors:       "Bill Bryson",
 		AverageRating: 3.83,
@@ -232,7 +232,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       2146,
 	},
 	{
-		BookID:        "27",
+		BookID:        27,
 		Title:         "Neither Here nor There: Travels in Europe",
 		Authors:       "Bill Bryson",
 		AverageRating: 3.87,
@@ -244,7 +244,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       2127,
 	},
 	{
-		BookID:        "28",
+		BookID:        28,
 		Title:         "Notes from a Small Island",
 		Authors:       "Bill Bryson",
 		AverageRating: 3.92,
@@ -256,7 +256,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       3159,
 	},
 	{
-		BookID:        "29",
+		BookID:        29,
 		Title:         "The Mother Tongue: English and How It Got That Way",
 		Authors:       "Bill Bryson",
 		AverageRating: 3.94,
@@ -268,7 +268,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       1986,
 	},
 	{
-		BookID:        "30",
+		BookID:        30,
 		Title:         "J.R.R. Tolkien 4-Book Boxed Set: The Hobbit and The Lord of the Rings",
 		Authors:       "J.R.R. Tolkien",
 		AverageRating: 4.59,
@@ -280,7 +280,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       1536,
 	},
 	{
-		BookID:        "31",
+		BookID:        31,
 		Title:         "The Lord of the Rings (The Lord of the Rings  #1-3)",
 		Authors:       "J.R.R. Tolkien",
 		AverageRating: 4.49,
@@ -292,7 +292,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       91,
 	},
 	{
-		BookID:        "32",
+		BookID:        32,
 		Title:         "The Lord of the Rings (The Lord of the Rings  #1-3)",
 		Authors:       "J.R.R. Tolkien",
 		AverageRating: 4.49,
@@ -304,7 +304,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       139,
 	},
 	{
-		BookID:        "34",
+		BookID:        34,
 		Title:         "The Fellowship of the Ring (The Lord of the Rings  #1)",
 		Authors:       "J.R.R. Tolkien",
 		AverageRating: 4.35,
@@ -316,7 +316,7 @@ var BooksLiteral = []*BookData{
 		Reviews:       12784,
 	},
 	{
-		BookID:        "35",
+		BookID:        35,
 		Title:         "The Lord of the Rings (The Lord of the Rings  #1-3)",
 		Authors:       "J.R.R. Tolkien-Alan  Lee",
 		AverageRating: 4.49,
