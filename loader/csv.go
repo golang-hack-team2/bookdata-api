@@ -8,8 +8,10 @@ import (
 	"strconv"
 )
 
-func CsvReader() []*BookData {
+// CsvReader reads in the CSV and populates the Store
+func CsvReader() ([]*BookData, int) {
 	BooksCsv := make([]*BookData, 0)
+	var maxID int
 
 	CsvFile, _ := os.Open("assets/books.csv")
 	r := csv.NewReader(CsvFile)
@@ -23,13 +25,14 @@ func CsvReader() []*BookData {
 			log.Fatal(err)
 		}
 
+		bookID, _ := strconv.Atoi(record[0])
 		avgRating, _ := strconv.ParseFloat(record[3], 64)
 		numPages, _ := strconv.Atoi(record[7])
 		ratings, _ := strconv.Atoi(record[8])
 		reviews, _ := strconv.Atoi(record[9])
 
 		BookRecord := BookData{
-			BookID:        record[0],
+			BookID:        bookID,
 			Title:         record[1],
 			Authors:       record[2],
 			AverageRating: avgRating,
@@ -43,7 +46,10 @@ func CsvReader() []*BookData {
 
 		BooksCsv = append(BooksCsv, &BookRecord)
 
+		if bookID > maxID {
+			maxID = bookID
+		}
 	}
 
-	return BooksCsv
+	return BooksCsv, maxID
 }

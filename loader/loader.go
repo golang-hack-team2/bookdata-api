@@ -2,7 +2,7 @@ package loader
 
 // BookData is the record structure of the books datastore
 type BookData struct {
-	BookID        string  `json:"book_id"`
+	BookID        int     `json:"book_id"`
 	Title         string  `json:"title"`
 	Authors       string  `json:"authors"`
 	AverageRating float64 `json:"average_rating"`

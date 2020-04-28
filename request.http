@@ -3,3 +3,41 @@ GET http://localhost:8080/api/v1/
 ###
 
 GET http://localhost:8080/api/v1/books
+
+###
+
+GET http://localhost:8080/api/v1/books/authors/rowling
+
+###
+
+GET http://localhost:8080/api/v1/books/title/harry
+
+###
+
+GET http://localhost:8080/api/v1/book/isbn/0060882611
+
+###
+
+POST http://localhost:8080/api/v1/book
+Content-Type: application/json
+
+{
+  "title": "Gone Girl",
+  "authors": "Gillian Flynn",
+  "average_rating": 3.14,
+  "isbn": "1780228228",
+  "isbn_13": "9781780228228",
+  "language_code": "en-US",
+  "num_pages": 466,
+  "ratings": 48246,
+  "reviews": 3142
+}
+
+###
+
+GET http://localhost:8080/api/v1/books/title/gone
+
+
+###
+
+DELETE http://localhost:8080/api/v1/book/isbn/1780228228
